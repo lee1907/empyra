@@ -21,6 +21,8 @@
   .updated { color: #9aa0b4; font-size: .9rem; margin-top: 2em; }
   hr { border: none; border-top: 1px solid #2a2d3e; margin: 3em 0; }
   section { scroll-margin-top: 20px; }
+  ul { padding-left: 1.2em; }
+  li { margin: .3em 0; }
 </style>
 </head>
 <body>
@@ -37,37 +39,71 @@
        <strong>Geliştirici:</strong> Bykdg<br>
        <strong>İletişim:</strong> <a href="mailto:empyra.game@gmail.com">empyra.game@gmail.com</a></p>
 
-    <p>Empyra, tek oyunculu, çevrimdışı bir bulmaca oyunudur. <strong>Hiçbir kişisel veri
-    toplamaz, saklamaz veya paylaşmaz.</strong></p>
-
-    <h3>Topladığımız veriler</h3>
-    <p><strong>Hiçbiri.</strong> Empyra kişisel olarak tanımlanabilir bilgi toplamaz. Hesap ya da
-    giriş gerektirmez; konum, kamera, mikrofon, rehber veya dosyalarınız için izin istemez.</p>
+    <p>Empyra tek oyunculu bir bulmaca oyunudur. Oyun çevrimdışı oynanır; ağ bağlantısı yalnızca
+    <strong>reklamları göstermek, isteğe bağlı satın almaları işlemek ve temel kullanım/çökme
+    istatistiklerini toplamak</strong> için kullanılır. Hesap açmanız veya giriş yapmanız gerekmez.</p>
 
     <h3>Cihazınızda saklanan veriler</h3>
-    <p>Oyun ilerlemeniz (tamamlanan bölümler, uyandırılan yaratıklar, ses/titreşim gibi ayarlar)
-    yalnızca cihazınızda, işletim sisteminin standart yerel deposunda saklanır. Bu veri cihazınızdan
-    dışarı çıkmaz, bize veya herhangi bir üçüncü tarafa gönderilmez ve uygulamayı kaldırdığınızda
-    silinir.</p>
+    <p>Oyun ilerlemeniz (tamamlanan bölümler, uyandırılan yaratıklar, Öz bakiyeniz, ses/titreşim
+    gibi ayarlar) cihazınızın standart yerel deposunda saklanır. Bu veriyi biz sunucularımızda
+    tutmayız; uygulamayı kaldırdığınızda silinir.</p>
 
-    <h3>Ağ kullanımı</h3>
-    <p>Empyra tamamen çevrimdışı çalışır ve hiçbir ağ isteği yapmaz. Reklam, analiz veya üçüncü
-    taraf takip aracı içermez.</p>
+    <h3>Reklamlar (Google AdMob)</h3>
+    <p>Empyra, Google AdMob aracılığıyla ödüllü ve geçiş reklamları gösterir. AdMob, reklamları
+    sunmak, sıklığını sınırlamak, ölçmek ve sahtekârlığı önlemek için şu verileri işleyebilir:</p>
+    <ul>
+      <li>cihazın reklam kimliği (iOS'ta IDFA, Android'de Reklam Kimliği)</li>
+      <li>IP tabanlı yaklaşık konum (ülke/şehir düzeyi)</li>
+      <li>genel cihaz ve kullanım bilgisi (cihaz modeli, işletim sistemi, reklam etkileşimleri)</li>
+    </ul>
+    <p><strong>iOS'ta</strong>, kişiselleştirilmiş reklam için izleme izni istenmeden önce Apple'ın
+    <em>App Tracking Transparency</em> ekranı gösterilir; izin vermeyi reddedebilirsiniz.
+    <strong>Avrupa Ekonomik Alanı ve Birleşik Krallık'ta</strong> ilk açılışta bir rıza (onay) ekranı
+    çıkar; kişiselleştirilmiş reklamları kabul edebilir ya da reddedebilirsiniz. Reklamları tamamen
+    kaldırmak için &ldquo;Reklamları Kaldır&rdquo; satın almasını veya Empyra Premium aboneliğini
+    kullanabilirsiniz.</p>
+
+    <h3>Analitik ve çökme raporlama (Firebase)</h3>
+    <p>Oyunu iyileştirmek için Google Firebase Analytics ve Firebase Crashlytics kullanırız. Bunlar
+    isimsiz bir uygulama örneği kimliği, cihaz/işletim sistemi bilgisi, uygulama sürümü, oyun içi
+    olaylar (ör. bölüm başlangıcı/bitişi) ve çökme teşhis verilerini (hata izleri, çökme anındaki
+    oyun durumu) işler. Bu veriler adınız, e-postanız veya telefon numaranızla ilişkilendirilmez.</p>
 
     <h3>Uygulama içi satın alma</h3>
-    <p>Uygulama içi satın alma yoktur ve hiçbir türde ödeme alınmaz.</p>
+    <p>İsteğe bağlı satın almalar vardır: Öz paketleri, &ldquo;Reklamları Kaldır&rdquo; ve
+    Empyra Premium aboneliği. Ödemeler platform mağazası (App Store veya Google Play) tarafından
+    işlenir. <strong>Kart veya ödeme bilgilerinizi Empyra görmez ve saklamaz.</strong> Abonelikler
+    ilgili mağaza hesabınızdan yönetilir ve iptal edilir.</p>
+
+    <h3>Bulut kayıt (yalnızca Android)</h3>
+    <p>Android sürümünde, isteğe bağlı olarak Google Play Games ile oyun kaydınızı buluta
+    yedekleyebilirsiniz. Bunu siz başlatmadıkça devreye girmez. iOS sürümünde bu özellik yoktur.</p>
+
+    <h3>Verilerin paylaşımı</h3>
+    <p>Verilerinizi satmayız. Yukarıda anlatılan hizmetler (Google AdMob, Google Firebase, platform
+    mağazaları) kendi gizlilik politikaları kapsamında veri işler. Google'ın politikası:
+    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></p>
+
+    <h3>Seçenekleriniz</h3>
+    <ul>
+      <li>iOS: <em>Ayarlar &rsaquo; Gizlilik ve Güvenlik &rsaquo; İzleme</em> üzerinden izlemeyi kapatabilirsiniz.</li>
+      <li>Android: <em>Ayarlar &rsaquo; Google &rsaquo; Reklamlar</em> üzerinden reklam kimliğinizi sıfırlayabilir
+          veya kişiselleştirmeyi kapatabilirsiniz.</li>
+      <li>Reklamları tamamen kaldırmak için satın alma veya abonelik seçeneğini kullanabilirsiniz.</li>
+    </ul>
 
     <h3>Çocuklar</h3>
-    <p>Empyra her yaş için uygundur. Hiçbir veri toplamadığımız için çocuklardan da veri toplamayız.</p>
+    <p>Empyra 13 yaş ve üzeri içindir; çocuklara yönelik değildir ve çocuklardan bilerek veri
+    toplamayız.</p>
 
     <h3>Bu politikadaki değişiklikler</h3>
     <p>Bu politika değişirse, güncel sürüm aynı adreste yeni bir &ldquo;son güncelleme&rdquo;
     tarihiyle yayımlanır.</p>
 
     <h3>İletişim</h3>
-    <p>Bu politikayla ilgili sorularınız için: <a href="mailto:empyra.game@gmail.com">empyra.game@gmail.com</a></p>
+    <p>Sorularınız için: <a href="mailto:empyra.game@gmail.com">empyra.game@gmail.com</a></p>
 
-    <p class="updated">Son güncelleme: 3 Haziran 2026</p>
+    <p class="updated">Son güncelleme: 25 Temmuz 2026</p>
   </section>
 
   <hr>
@@ -79,39 +115,69 @@
        <strong>Developer:</strong> Bykdg<br>
        <strong>Contact:</strong> <a href="mailto:empyra.game@gmail.com">empyra.game@gmail.com</a></p>
 
-    <p>Empyra is a single-player, offline puzzle game. <strong>We do not collect, store, or share
-    any personal data.</strong></p>
-
-    <h3>Data we collect</h3>
-    <p><strong>None.</strong> Empyra does not collect personally identifiable information. It does
-    not require an account or sign-in, and asks for no permissions to your location, camera,
-    microphone, contacts, or files.</p>
+    <p>Empyra is a single-player puzzle game. It is played offline; the network is used only to
+    <strong>serve ads, process optional purchases, and collect basic usage and crash statistics</strong>.
+    No account or sign-in is required.</p>
 
     <h3>Data stored on your device</h3>
-    <p>Your game progress (levels completed, awakened creatures, settings such as sound and
-    vibration) is saved only on your device, using the operating system's standard local storage.
-    This data never leaves your device, is not transmitted to us or to any third party, and is
-    removed when you uninstall the app.</p>
+    <p>Your game progress (levels completed, awakened creatures, your Öz balance, settings such as
+    sound and vibration) is stored in your device's standard local storage. We do not keep this data
+    on our servers, and it is removed when you uninstall the app.</p>
 
-    <h3>Network use</h3>
-    <p>Empyra works fully offline and makes no network requests. It contains no advertising, no
-    analytics, and no third-party tracking SDKs.</p>
+    <h3>Ads (Google AdMob)</h3>
+    <p>Empyra shows rewarded and interstitial ads via Google AdMob. To serve, cap, measure and
+    protect ads from fraud, AdMob may process:</p>
+    <ul>
+      <li>your device's advertising identifier (IDFA on iOS, Advertising ID on Android)</li>
+      <li>approximate, IP-based location (country/city level)</li>
+      <li>general device and usage information (device model, OS, ad interactions)</li>
+    </ul>
+    <p><strong>On iOS</strong>, Apple's <em>App Tracking Transparency</em> prompt is shown before any
+    personalized ad request; you may decline. <strong>In the EEA and the UK</strong>, a consent
+    screen appears on first launch; you can accept or decline personalized ads. To remove ads
+    entirely, you can use the &ldquo;Remove Ads&rdquo; purchase or the Empyra Premium subscription.</p>
+
+    <h3>Analytics and crash reporting (Firebase)</h3>
+    <p>We use Google Firebase Analytics and Firebase Crashlytics to improve the game. These process
+    an anonymous app instance identifier, device/OS information, app version, in-game events (e.g.
+    level start/finish) and crash diagnostics (stack traces and game state at the time of a crash).
+    This data is not linked to your name, email or phone number.</p>
 
     <h3>In-app purchases</h3>
-    <p>There are no in-app purchases and no payments of any kind.</p>
+    <p>Optional purchases exist: Öz (Essence) packs, &ldquo;Remove Ads&rdquo;, and the Empyra Premium
+    subscription. Payments are processed by the platform store (App Store or Google Play).
+    <strong>Empyra never sees or stores your card or payment details.</strong> Subscriptions are
+    managed and cancelled through your store account.</p>
+
+    <h3>Cloud save (Android only)</h3>
+    <p>On Android you may optionally back up your save to the cloud with Google Play Games. It is
+    never enabled unless you start it. This feature is not present in the iOS version.</p>
+
+    <h3>Sharing of data</h3>
+    <p>We do not sell your data. The services described above (Google AdMob, Google Firebase, the
+    platform stores) process data under their own privacy policies. Google's policy:
+    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></p>
+
+    <h3>Your choices</h3>
+    <ul>
+      <li>iOS: turn tracking off under <em>Settings &rsaquo; Privacy &amp; Security &rsaquo; Tracking</em>.</li>
+      <li>Android: reset your advertising ID or turn off personalization under
+          <em>Settings &rsaquo; Google &rsaquo; Ads</em>.</li>
+      <li>Use the purchase or subscription option to remove ads entirely.</li>
+    </ul>
 
     <h3>Children</h3>
-    <p>Empyra is suitable for all ages. Because we collect no data at all, we collect no data from
-    children either.</p>
+    <p>Empyra is intended for ages 13+ and is not directed at children; we do not knowingly collect
+    data from children.</p>
 
     <h3>Changes to this policy</h3>
-    <p>If this policy ever changes, the updated version will be published at the same URL with a new
+    <p>If this policy changes, the updated version will be published at the same URL with a new
     &ldquo;last updated&rdquo; date.</p>
 
     <h3>Contact</h3>
-    <p>Questions about this policy? Email <a href="mailto:empyra.game@gmail.com">empyra.game@gmail.com</a></p>
+    <p>Questions? Email <a href="mailto:empyra.game@gmail.com">empyra.game@gmail.com</a></p>
 
-    <p class="updated">Last updated: 3 June 2026</p>
+    <p class="updated">Last updated: 25 July 2026</p>
   </section>
 
 </div>
